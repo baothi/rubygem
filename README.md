@@ -68,3 +68,14 @@ Things you may want to cover:
 
 * ========================================
 
+* =========rails action_text:install========
+  * // application.js
+  * require("trix")
+  * require("@rails/actiontext")
+
+  * // actiontext.scss
+  * @import "trix/dist/trix";
+
+  * // application.scss
+  * @import "./actiontext.scss";
+* ========================================
