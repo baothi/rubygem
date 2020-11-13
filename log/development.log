@@ -1,0 +1,26 @@
+  [1m[35m (102.3ms)[0m  [1m[35mCREATE DATABASE "rubygem_development" ENCODING = 'unicode'[0m
+  [1m[35m (37.4ms)[0m  [1m[35mCREATE DATABASE "rubygem_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2020-11-13 10:40:29 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 301)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/baothi/rubygem/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.2
+Time: 2111ms
+Built at: 11/13/2020 10:40:34 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4624ms (Views: 4613.8ms | ActiveRecord: 0.0ms | Allocations: 18545)
+
+
