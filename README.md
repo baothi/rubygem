@@ -21,10 +21,9 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
-========================================
-  Your Yarn packages are out of date!
-  Please run `yarn install --check-files` to update.
-  Try just `yarn install` then `rails s` again
-  so we run `yarn install` and next `rails s`
-========================================
+* ========================================
+   * Your Yarn packages are out of date!
+   * Please run `yarn install --check-files` to update.
+   * Try just `yarn install` then `rails s` again
+   * so we run `yarn install` and next `rails s`
+* ========================================
