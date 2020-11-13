@@ -28,7 +28,7 @@ Things you may want to cover:
   Try just `yarn install` then `rails s` again
   so we run `yarn install` and next `rails s`
 ========================================
-* ========================================
+* =========install_bootstrap_with_YARN_and_webpacker========
   * read https://classic.yarnpkg.com/en/package/bootstrap
   *  go to run `yarn add jquery popper.js bootstrap`
   * go to file `config/webkpack/envirionment.js` update.
@@ -45,8 +45,8 @@ Things you may want to cover:
   * go to `views/layouts/application.html.haml` and next copy pass `= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'`
   * go to file `app/javascript/packs/application.js` update.
   * `import 'bootstrap/dist/js/bootstrap'`
-  
+
     `import 'bootstrap/dist/css/bootstrap'`
-   
+
     `require("stylesheets/application.scss")`
 * ========================================
