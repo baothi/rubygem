@@ -44,7 +44,9 @@ Things you may want to cover:
   * go to folder `app/javascript` create `stylesheets/application.scss`
   * go to `views/layouts/application.html.haml` and next copy pass `= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'`
   * go to file `app/javascript/packs/application.js` update.
-  * `import 'bootstrap/dist/js/bootstrap'
-    import 'bootstrap/dist/css/bootstrap'
-    require("stylesheets/application.scss")`
+  * `import 'bootstrap/dist/js/bootstrap'`
+  
+    `import 'bootstrap/dist/css/bootstrap'`
+   
+    `require("stylesheets/application.scss")`
 * ========================================
