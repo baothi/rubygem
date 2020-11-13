@@ -51,3 +51,20 @@ Things you may want to cover:
 
     `require("stylesheets/application.scss")`
 * ========================================
+
+* =========rails 6 gem font awesome webpacker example========
+  * read https://medium.com/@kelishrestha97/how-to-install-font-awesome-with-yarn-in-rails-6-0-c2506543c13d
+  *  go to run `yarn add @fortawesome/fontawesome-free`
+  * // application.scss
+  *  $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+  *  @import '@fortawesome/fontawesome-free/scss/fontawesome';
+  *  @import '@fortawesome/fontawesome-free/scss/solid';
+  *  @import '@fortawesome/fontawesome-free/scss/regular';
+  *  @import '@fortawesome/fontawesome-free/scss/brands';
+  *  @import '@fortawesome/fontawesome-free/scss/v4-shims';
+
+  * // application.js
+  * import "@fortawesome/fontawesome-free/js/all";
+
+* ========================================
+

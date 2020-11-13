@@ -26,7 +26,8 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 gem "haml-rails", "~> 2.0"
 gem 'bootstrap', '~> 5.0.0.alpha2'
-gem 'font-awesome-sass', '~> 5.15.1'
+# Fontawsome
+gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
 
 # Reduces boot times through caching; required in config/boot.rb
